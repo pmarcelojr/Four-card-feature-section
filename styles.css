@@ -102,6 +102,7 @@ p {
     left: 70%;
     width: 1920px;
     z-index: -1;
+    border: 0;
 }
 
 .geometric-bg:after {
@@ -114,10 +115,11 @@ p {
     position: absolute;
     top: 35%;
     width: 120px;
+    border: 0;
 }
 
 .geometric-bg:before {
-    background-color: hsl(0, 0%, 98%);
+    background: hsl(0, 0%, 98%);
     border-radius: .5rem;
     content: '';
     display: block;
@@ -126,6 +128,7 @@ p {
     position: absolute;
     top: 40%;
     width: 120px;
+    border: 0;
 }
 
 /* Footer */
